@@ -10,10 +10,15 @@ body {
     align-items: center;
     justify-content: space-evenly;
     height:600px;
-    background-image: url(../assets/images/fondo.png);
+    background-image: url(../assets/images/cleanFast.png);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#logo {
+    background-color: #ffffff;
+    border-radius: 50px;
 }
 
 nav ul {
@@ -47,7 +52,24 @@ nav li a {
 #images {
     background-color: #39bdeb;
     justify-content: space-evenly;
-    padding-top: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#handText::before{
+    content: "hello";
+}
+#hand:hover, #hand:before {
+    filter: brightness(50%);
+    content: "hellssssssssssssssssssssssso";
+}
+
+#hosp:hover {
+    filter: brightness(50%);
+}
+
+#bucket:hover {
+    filter: brightness(50%);
 }
 
 #thirdLogo {
