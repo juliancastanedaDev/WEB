@@ -56,10 +56,10 @@ nav li a {
     padding-bottom: 100px;
 }
 
-#handText::before{
+.handText:before{
     content: "hello";
 }
-#hand:hover, #hand:before {
+.handText:hover, .handText:before {
     filter: brightness(50%);
     content: "hellssssssssssssssssssssssso";
 }
